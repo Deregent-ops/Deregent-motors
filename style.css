@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    }
+
+body {
+margin: 0;
+background: #0b0b0b;
+color: #f5f5f5;
+font-family: Arial, sans-serif;
+text-align: center;
+}
+
+.container {
+width: 100%;
+max-width: 1100px;
+margin: auto;
+padding: 50px 20px;
+}
+
+h1 {
+color: #d4af37;
+font-size: clamp(28px, 6vw, 52px);
+letter-spacing: 5px;
+margin-bottom: 15px;
+}
+
+.tagline {
+color: #d4af37;
+letter-spacing: 4px;
+font-size: 13px;
+margin-bottom: 60px;
+}
+
+h2 {
+font-size: clamp(28px, 5vw, 42px);
+margin: 30px 0 20px;
+}
+
+p {
+color: #c7c7c7;
+line-height: 1.8;
+}
+
+.car-image {
+display: block;
+width: 100%;
+max-width: 800px;
+height: auto;
+margin: 30px auto;
+border-radius: 14px;
+border: 1px solid #383838;
+}
+
+.car-description {
+color: #d4af37;
+font-size: 18px;
+letter-spacing: 1px;
+}
+
+button {
+background: #d4af37;
+color: #111;
+border: 1px solid #d4af37;
+padding: 16px 28px;
+border-radius: 5px;
+font-size: 15px;
+font-weight: bold;
+margin: 25px 0;
+cursor: pointer;
+transition: 0.3s;
+}
+
+button:hover {
+background: transparent;
+color: #d4af37;
+transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+.container {
+padding: 35px 18px;
+}
+
+.tagline {
+letter-spacing: 2px;
+margin-bottom: 40px;
+}
+
+.car-image {
+  border-radius: 8px;
+}
+border-radius: 8px;
+}
+.collection {
+padding: 50px 20px;
+background: #141414;
+}
+
+.collection > p {
+margin-bottom: 35px;
+}
+
+.car-card {
+max-width: 500px;
+margin: 20px auto;
+padding: 25px;
+background: #202020;
+border: 1px solid #806a2c;
+border-radius: 12px;
+}
+
+.car-card h3 {
+color: #d4af37;
+font-size: 22px;
+}
+
+.price {
+color: #d4af37;
+font-weight: bold;
+}
+.card-image {
+width: 100%;
+height: 220px;
+object-fit: cover;
+border-radius: 8px;
+margin-bottom: 15px;
+}
+/* Navigation Menu */
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+padding: 20px;
+background: #111;
+border-bottom: 1px solid #d4af37;
+}
+
+.logo {
+color: #d4af37;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+}
+
+.nav-links {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.nav-links a {
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+transition: color 0.3s;
+}
+
+.nav-links a:hover {
+color: #d4af37;
+}
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+padding: 20px;
+background: #111;
+border-bottom: 1px solid #d4af37;
+}
+
+.logo {
+color: #d4af37;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+}
+
+.nav-links {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.nav-links a {
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+}
+
+.nav-links a:hover {
+color: #d4af37;
+}
+.contact-section {
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 40px;
+  border-top: 1px solid #d4af37;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  background: #d4af37;
+  color: #000;
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.whatsapp-btn:hover {
+  opacity: 0.8;
+}
+.car-card {
+  background: linear-gradient(145deg, #1c1c1c, #080808);
+  border: 1px solid #d4af37;
+  border-radius: 15px;
+  padding: 18px;
+  margin: 25px 0;
+  box-shadow: 0 5px 20px rgba(212, 175, 55, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3);
+}
+
+.card-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.price {
+  color: #d4af37;
+  font-weight: bold;
+  font-size: 18px;
+}
+.car-card {
+  background: linear-gradient(145deg, #1c1c1c, #080808);
+  .hero {
+  padding: 55px 20px;
+  margin: 25px 0;
+  text-align: center;
+  background: linear-gradient(135deg, #181818, #050505);
+  border: 1px solid #d4af37;
+  border-radius: 15px;
+}
+
+.hero-label {
+  color: #d4af37;
+  letter-spacing: 3px;
+  font-size: 11px;
+}
+
+.hero h2 {
+  font-size: 38px;
+  color: #ffffff;
+  margin: 20px 0;
+}
+
+.hero-text {
+  color: #cccccc;
+  line-height: 1.8;
+}
+
+.hero-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 24px;
+  background: #d4af37;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
